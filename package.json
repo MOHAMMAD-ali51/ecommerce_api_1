@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/MOHAMMAD-ali51/ecommerce_api_1/issues"
   },
-  "homepage": "https://github.com/MOHAMMAD-ali51/ecommerce_api_1#readme"
+  "homepage": "https://github.com/MOHAMMAD-ali51/ecommerce_api_1#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
